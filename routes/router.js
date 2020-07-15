@@ -95,7 +95,7 @@ const deleteStats = async (req, res, next) => {
 
 
 router
-    .route('/api/v1/stats/:id')
+    .route('/api/v1/stats/')
     .get(getStats)
     .post(createStats)
     .put(updateStats)
